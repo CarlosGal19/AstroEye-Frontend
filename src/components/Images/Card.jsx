@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import PointData from "../Modal/ModalData";
+import axiosInstance from "../../config/axios";
 
 export default function ImageCard({ image }) {
     const [selectedPoint, setSelectedPoint] = useState(null);
@@ -10,9 +11,9 @@ export default function ImageCard({ image }) {
         setSelectedPoint(point);
 
         // const res = await fetch(`/api/imageData?imageId=${point}`);
-        const res = await fetch(`http://localhost:4000/images/cardData/${point}`);
-        const data = await res.json();
-        setPointData(data);
+        // const data = await fetch(`http://localhost:4000/images/cardData/${point}`);
+        const data = await axiosInstance.get(`/images/cardData/${point}`);
+        setPointData(data.data);
     };
 
     return (
