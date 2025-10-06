@@ -31,7 +31,7 @@
 
 <h2>🚀 Getting Started</h2>
 <p>Clone the repository and install dependencies:</p>
-<pre><code>git clone &lt;your-repo-url&gt;
+<pre><code>git clone https://github.com/CarlosGal19/AstroEye-Frontend.git
 cd astroview-frontend
 npm install
 npm run dev
