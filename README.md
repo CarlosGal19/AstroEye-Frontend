@@ -19,6 +19,7 @@
 <ul>
     <li>💻 <strong>Frontend:</strong> React, TailwindCSS</li>
     <li>🖥️ <strong>Backend:</strong> Node.js, Express (<a href="https://github.com/CarlosGal19/AstroEye-Backend" target="_blank">GitHub Repo</a>)</li>
+    <li>📤 <strong>Image Scripting:</strong> Scripts for uploading images to GCP (<a href="https://github.com/CarlosGal19/AstroEye-ImagesScripting" target="_blank">GitHub Repo</a>)</li>
     <li>🖼️ <strong>Image Viewer:</strong> OpenSeadragon</li>
     <li>🌐 <strong>3D Visualization:</strong> React-Globe</li>
     <li>🗄️ <strong>Database:</strong> MySQL</li>
