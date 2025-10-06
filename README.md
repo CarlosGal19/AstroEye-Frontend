@@ -1,5 +1,5 @@
-<h1>🌌 AstroView</h1>
-<p>AstroView is a web application for exploring high-resolution astronomical images. Users can interact with images using zoom and pan features, and explore a 3D globe visualization of celestial points.</p>
+<h1>🌌 AstroEye</h1>
+<p>AstroEye is a web application for exploring high-resolution astronomical images. Users can interact with images using zoom and pan features, and explore a 3D globe visualization of celestial points.</p>
 
 <h2>✨ Features</h2>
 <ul>
@@ -32,7 +32,7 @@
 <h2>🚀 Getting Started</h2>
 <p>Clone the repository and install dependencies:</p>
 <pre><code>git clone https://github.com/CarlosGal19/AstroEye-Frontend.git
-cd astroview-frontend
+cd AstroEye-Frontend
 npm install
 npm run dev
 </code></pre>
