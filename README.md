@@ -9,6 +9,12 @@
     <li>☁️ Cloud storage integration for storing and retrieving images</li>
 </ul>
 
+<h2>📑 Docs</h2>
+<p>For additional documentation, diagrams, and project files, check the following folder:</p>
+<ul>
+    <li>📂 <a href="https://drive.google.com/drive/folders/1-MjXwnQXYHo1D6wI5a6w4vNKxq2i-1cn?usp=sharing" target="_blank">AstroEye Project Docs (Google Drive)</a></li>
+</ul>
+
 <h2>🛠️ Technologies Used</h2>
 <ul>
     <li>💻 <strong>Frontend:</strong> React, TailwindCSS</li>
