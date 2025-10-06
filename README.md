@@ -1,16 +1,41 @@
-# React + Vite
+<h1>🌌 AstroView</h1>
+<p>AstroView is a web application for exploring high-resolution astronomical images. Users can interact with images using zoom and pan features, and explore a 3D globe visualization of celestial points.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>✨ Features</h2>
+<ul>
+    <li>🖼️ Interactive image exploration with <strong>OpenSeadragon</strong></li>
+    <li>🌍 3D globe visualization with <strong>React-Globe</strong></li>
+    <li>🔭 High-detail viewing of NASA and other astronomical images</li>
+    <li>☁️ Cloud storage integration for storing and retrieving images</li>
+</ul>
 
-Currently, two official plugins are available:
+<h2>🛠️ Technologies Used</h2>
+<ul>
+    <li>💻 <strong>Frontend:</strong> React, TailwindCSS</li>
+    <li>🖥️ <strong>Backend:</strong> Node.js, Express (<a href="https://github.com/CarlosGal19/AstroEye-Backend" target="_blank">GitHub Repo</a>)</li>
+    <li>🖼️ <strong>Image Viewer:</strong> OpenSeadragon</li>
+    <li>🌐 <strong>3D Visualization:</strong> React-Globe</li>
+    <li>🗄️ <strong>Database:</strong> MySQL</li>
+    <li>☁️ <strong>Cloud Storage:</strong> Google Cloud Storage</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>📚 Resources</h2>
+<ul>
+    <li>⚛️ <a href="https://react.dev/" target="_blank">React</a></li>
+    <li>🎨 <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a></li>
+    <li>🌍 <a href="https://github.com/vasturiano/react-globe.gl" target="_blank">React-Globe</a></li>
+    <li>🔍 <a href="https://openseadragon.github.io/" target="_blank">OpenSeadragon</a></li>
+    <li>🗄️ <a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
+    <li>☁️ <a href="https://cloud.google.com/storage" target="_blank">Google Cloud Storage</a></li>
+</ul>
 
-## React Compiler
+<h2>🚀 Getting Started</h2>
+<p>Clone the repository and install dependencies:</p>
+<pre><code>git clone &lt;your-repo-url&gt;
+cd astroview-frontend
+npm install
+npm run dev
+</code></pre>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h2>📄 License</h2>
+<p>This project is open source and available under the MIT License.</p>
