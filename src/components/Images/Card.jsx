@@ -10,8 +10,6 @@ export default function ImageCard({ image }) {
     const handleClick = async (point) => {
         setSelectedPoint(point);
 
-        // const res = await fetch(`/api/imageData?imageId=${point}`);
-        // const data = await fetch(`http://localhost:4000/images/cardData/${point}`);
         const data = await axiosInstance.get(`/images/cardData/${point}`);
         setPointData(data.data);
     };
